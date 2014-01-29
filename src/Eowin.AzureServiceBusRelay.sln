@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eowin.AzureServiceBusRelay.Server", "Eowin.AzureServiceBusRelay.Server\Eowin.AzureServiceBusRelay.Server.csproj", "{320844D1-D6D2-4A94-BBAE-64BF9B909CEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eowin.AzureServiceBusRelay.Server.Tests", "Eowin.AzureServiceBusRelay.Server.Tests\Eowin.AzureServiceBusRelay.Server.Tests.csproj", "{B9807ACE-3DA0-464B-BF42-09FB47B9FC76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{320844D1-D6D2-4A94-BBAE-64BF9B909CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{320844D1-D6D2-4A94-BBAE-64BF9B909CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{320844D1-D6D2-4A94-BBAE-64BF9B909CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{320844D1-D6D2-4A94-BBAE-64BF9B909CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9807ACE-3DA0-464B-BF42-09FB47B9FC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9807ACE-3DA0-464B-BF42-09FB47B9FC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9807ACE-3DA0-464B-BF42-09FB47B9FC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9807ACE-3DA0-464B-BF42-09FB47B9FC76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
