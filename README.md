@@ -29,21 +29,10 @@ Usage example:
 ```
 
 
-## Build
+## Build and tests
 
-1. The `Eowin.AzureServiceBusRelay.Server.Tests` project is missing a `SecretCredentials.cs` file.
-This file contains the Service Bus credentials, with the following structure, and is never committed into the repository.
+To run the tests located in `Eowin.AzureServiceBusRelay.Server.Tests`, the following environment variables must be defined
 
-```csharp
-namespace Eowin.AzureServiceBusRelay.Server.Tests
-{
-    public class ServiceBusCredentials
-    {
-        public static readonly string ServiceBusAddress = "https://???????.servicebus.windows.net/webapi/";
-        public static readonly string Secret = "????";
-    }
-}
-``` 
-
-Please create this files locally, using an adequate service bus address and secret.
+* `ServiceBusAddress` - containing the relay listening address
+* `ServiceBusSecret` - containing the owner's secret
 
