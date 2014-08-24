@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>Eowin.AzureServiceBusRelay.Server</title>
+    <authors>Pedro Félix</authors>
+    <owners>Pedro Félix</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <projectUrl>https://github.com/pmhsfelix/Eowin.AzureServiceBusRelay.Server</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A OWIN server for the Azure Service Bus Relay</description>
+    <releaseNotes>$version$</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>ASP.NET Web API OWIN Azure Service Bus</tags>
+  </metadata>
+</package>
