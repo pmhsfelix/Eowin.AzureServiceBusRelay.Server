@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eowin.AzureServiceBusRelay.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eowin.AzureServiceBusRelay.Server.Tests", "Eowin.AzureServiceBusRelay.Server.Tests\Eowin.AzureServiceBusRelay.Server.Tests.csproj", "{B9807ACE-3DA0-464B-BF42-09FB47B9FC76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eowin.AzureServiceBusRelay.Server.Examples.NancyFx", "Eowin.AzureServiceBusRelay.Server.Examples.NancyFx\Eowin.AzureServiceBusRelay.Server.Examples.NancyFx.csproj", "{1F5D13BF-B6DF-4CBA-8333-53B2802EE292}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B9807ACE-3DA0-464B-BF42-09FB47B9FC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9807ACE-3DA0-464B-BF42-09FB47B9FC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9807ACE-3DA0-464B-BF42-09FB47B9FC76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F5D13BF-B6DF-4CBA-8333-53B2802EE292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F5D13BF-B6DF-4CBA-8333-53B2802EE292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F5D13BF-B6DF-4CBA-8333-53B2802EE292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F5D13BF-B6DF-4CBA-8333-53B2802EE292}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
