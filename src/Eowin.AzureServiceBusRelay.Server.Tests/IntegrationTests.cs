@@ -242,6 +242,21 @@ namespace Eowin.AzureServiceBusRelay.Server.Tests
             Assert.Equal(HttpStatusCode.NoContent, resp.StatusCode);
         }
 
+        [Fact]
+        public void Handles_querystring_correctly()
+        {
+            var client = new HttpClient();
+            var t = client.GetAsync(_baseAddress + "test?a=1&b=xyz");
+            TestController.OnGet(req =>
+            {
+                var qs = req.RequestUri.Query;
+                Assert.Equal("a=1&b=xyz", qs);
+                return new HttpResponseMessage(HttpStatusCode.NoContent);
+            });            
+            var resp = t.Result;
+            Assert.Equal(HttpStatusCode.NoContent, resp.StatusCode);
+        }
+
         private readonly AzureServiceBusOwinServer _server;
 
         public IntegrationTests()
