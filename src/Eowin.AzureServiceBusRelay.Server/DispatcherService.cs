@@ -100,7 +100,7 @@ namespace Eowin.AzureServiceBusRelay.Server
             var reqUri = incomingRequest.UriTemplateMatch.RequestUri;
             ctx.Request.Scheme = reqUri.Scheme;
             ctx.Request.Path = new PathString(reqUri.AbsolutePath);
-            ctx.Request.QueryString = new QueryString(reqUri.Query);
+            ctx.Request.QueryString = new QueryString(reqUri.Query.TrimStart('?'));
 
             var onSendingHeaders =
                 new Action<Action<object>, object>((h, o) => onSendingHeadersHandler.Add(Tuple.Create(h, o)));
