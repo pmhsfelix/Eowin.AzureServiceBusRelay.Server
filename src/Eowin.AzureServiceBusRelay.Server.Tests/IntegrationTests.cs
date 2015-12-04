@@ -250,7 +250,7 @@ namespace Eowin.AzureServiceBusRelay.Server.Tests
             TestController.OnGet(req =>
             {
                 var qs = req.RequestUri.Query;
-                Assert.Equal("a=1&b=xyz", qs);
+                Assert.Equal("?a=1&b=xyz", qs);
                 return new HttpResponseMessage(HttpStatusCode.NoContent);
             });            
             var resp = t.Result;
